@@ -1,0 +1,103 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+/* main-container */
+.main-container{
+    width: 1000px;
+    height: 2000px;
+    border: 5px solid white;
+    background-color: whitesmoke;
+}
+h3{
+    width: 50%;
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+}
+.left{
+    display: flex;
+    margin-top: 22px;
+    width: 50%;
+}
+.left a{
+    width: 50%;
+    text-decoration: none;
+    color:blue;
+}
+.padding{
+    padding-left: 60px;
+}
+.pad-on{
+    padding-left: 15px;
+}
+#icon{
+    padding-left: 15px;
+color: blue;
+margin-top: 7px;
+}
+h3{
+    margin-left: 10px;
+}
+.influencer{
+    width: 45%;
+    margin-left: 20px;
+}
+/* }first-part */
+.container{
+    display: flex;
+}
+.camera{
+    width: 55%;
+    margin-right: 10px;
+    padding-top: -70px;
+}
+button{
+    border: 2px solid violet;
+    background-color: violet;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+hr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.company-icon img{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+.popular{
+    margin-left: 15px;
+    background: seashell;
+    border: 10px solid white;
+    width: 36.5%;
+    border-radius: 10px;
+}
+#ratting{
+    margin-left: 5px;
+}
+.star{
+    display: flex;
+    text-align: center;
+}
+#color{
+color: red;
+padding-left: 3px;
+}
+.time{
+    margin-top: -4px;
+    padding-left: 15px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+
+
