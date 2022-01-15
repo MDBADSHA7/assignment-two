@@ -79,6 +79,7 @@ Main-camera
     transform: rotate(45deg);
     transition-duration:10s;
 }
+/* Button */
 button{
     border: 2px solid violet;
     background-color: violet;
@@ -155,6 +156,13 @@ padding-left: 3px;
     padding-left: 180px;
     padding-top: 25px;
 }
+.see{
+    text-decoration: none;
+}
+.see:hover{
+    color: gold;
+    transition-duration: 5s;
+}
 .copyright{
     text-align: center;
     color: slateblue;
@@ -177,7 +185,7 @@ padding-left: 3px;
 Media quiry
 -------------*/
 /* Mobile device */
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px) {
     .container{
         flex-direction: column;
         width: 100%;
