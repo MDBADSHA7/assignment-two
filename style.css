@@ -4,9 +4,15 @@ body{
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 /* main-container */
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+}
 .main-container{
     width: 1000px;
-    height: 2000px;
+    height: 3000px;
     border: 5px solid white;
     background-color: whitesmoke;
 }
@@ -60,6 +66,11 @@ button{
     border-radius: 20px;
     color: whitesmoke;
 }
+button:hover{
+    color: blue;
+    background-color: coral;
+    transition-duration: 5s;
+}
 hr{
     margin-left: 15px;
     margin-right: 15px;
@@ -67,16 +78,16 @@ hr{
 .company-icon img{
     margin-left: 10px;
     margin-right: 10px;
+    padding-left: 25px;
     justify-content: space-between;
 }
 h1{
     text-align: center;
 }
 .popular{
-    margin-left: 15px;
-    background: seashell;
-    border: 10px solid white;
-    width: 36.5%;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 10px solid lightsteelblue;
     border-radius: 10px;
 }
 #ratting{
@@ -94,10 +105,20 @@ padding-left: 3px;
     margin-top: -4px;
     padding-left: 15px;
 }
-.main{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 5px;
+.set-up {
+    width: 260px;
+    height: 250px;
 }
+.bottom{
+    padding-left: 870px;
+    color:red;
+}
+.bottom:hover{
+    color: gold;
+    transition-duration: 5s;
+}
+
+
+
 
 
